@@ -10,7 +10,7 @@
   (zero? (mod a b)))
 
 (defn is-answer? [x]
-  (every? #(is-divisble-by x %) (range 1 21)))
+  (every? #(is-divisble-by x %) (range 2 21)))
 
 (defn -main
   "Smallest number that is evenly divisble by all numbers up to 20"
